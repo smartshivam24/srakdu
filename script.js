@@ -6,7 +6,7 @@ let angle = 0;
 document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') {
     angle -= 100; // Rotate clockwise
-  } else if (e.key === 'ArrowLeft') {
+  } else if (e.key === 'ArrowRight') {
     angle += 100; // Rotate counter-clockwise
   }
   slider.style.transform = `rotateY(${angle}deg)`;
